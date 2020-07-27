@@ -5,11 +5,11 @@ import { Container } from "./styles";
 
 const Home = ({ navigation }) => {
   return (
-    <View justifyContent="center" alignItems="center" flex={1}>
-      <TouchableOpacity onPress={() => navigation.push("Fruits")}>
-        <Text>Visualize your fruits</Text>
+    <Container>
+      <TouchableOpacity onPress={() => navigation.push("Camera")}>
+        <Text>Visualize your camera</Text>
       </TouchableOpacity>
-    </View>
+    </Container>
   );
 };
 
